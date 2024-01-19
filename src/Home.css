@@ -84,6 +84,8 @@ body {
     transition: background-color 0.3s ease;
     overflow-y:scroll;
     margin-top: 2rem;
+    color: #2ecc71;
+    text-decoration: None;
   }
   
   .rounded-square:hover {
