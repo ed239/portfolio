@@ -57,8 +57,8 @@ const Home = () => {
             <a id="learn-more-button">Learn More</a>
           </Link>
           <Link to='/projects2' className="rounded-square" onClick={handleLinkScroll}>
-            <h2>Experience</h2>
-            <p>Professional Corporate experience along with research, leadership, and student work.</p>
+            <h2>Projects</h2>
+            <p>Take a glance at the projects I have completed ranging from web and app development to ML.</p>
             <a id="learn-more-button" >Learn More</a>
           </Link>
         </div>
@@ -87,8 +87,8 @@ const Home = () => {
             <a id="learn-more-button">Learn More</a>
           </Link>
           <Link to='/projects2' className="rounded-square" onClick={handleLinkScroll}>
-            <h2>Experience</h2>
-            <p>Professional Corporate experience along with research, leadership, and student work.</p>
+            <h2>Projects</h2>
+            <p>Take a glance at the projects I have completed ranging from web and app development to ML.</p>
             <a id="learn-more-button">Learn More</a>
           </Link>
           <br></br>
