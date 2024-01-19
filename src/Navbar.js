@@ -45,7 +45,7 @@ export default function Navbar(){
       )}
 
       <div className={`nav-links ${menuVisible ? 'visible' : ''}`}>
-        <Link to="/" className="nav-button" onClick={handleLinkClick}>
+        <Link to="/portfolio" className="nav-button" onClick={handleLinkClick}>
           Home
         </Link>
         <Link to="/education" className="nav-button" onClick={handleLinkClick}>
