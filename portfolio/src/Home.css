@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; 
+    color:  #aaffaa; /* Bright grey/green text color  color: #aaffaa; */
+    font-family: 'Arial', sans-serif;
+    z-index: 0;
+  }
+  
+  #top-half {
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+    padding-top: 1rem;
+    background-color:#001f3f;
+    z-index:0;
+  }
+  
+  #profile-picture {
+    width: 17%;
+    height: 95%;
+    object-fit: cover;
+    border: 5px solid black;
+    background-color: #8B4513;
+    border-radius: 50%;
+    position:absolute;
+    /* top: 50%;
+    left: 23%; */
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-right: 18rem;
+    margin-left: 10rem;
+    z-index: 1;
+  }
+  
+  
+  #parallelogram {
+    width: 120%;
+    height: 85%;
+    background-color: #8B4513; /* Brown parallelogram color */
+    position: relative;
+    clip-path: polygon(40% 0%, 90% 0%, 75% 100%, 25% 100%);
+    transform: skewY(0deg); /* Skew to make it a parallelogram */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left:-30rem;
+    padding-left: 2rem;
+    padding-right: 13rem;
+    padding-top: 2rem;
+    margin-top: 1.6rem;
+    z-index: 2;
+  }
+
+  #parallelogram-text {
+    font-size: 600%;
+    font-weight: bold;
+    padding-left: 55rem;
+    text-align: justify;
+    z-index:1;
+  }
+  
+  #bottom-half {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .rounded-square {
+    width: 15%;
+    height: 40%;
+    background-color: #003366; /* Slightly lighter than the page */
+    border-radius: 20px;
+    padding: 0% 3% 3% 2%;
+    padding-bottom: 3rem;
+    padding-top: 1.5rem;
+    margin: 1%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    overflow-y: hidden;
+  }
+  
+  .rounded-square:hover {
+    background-color: #004080; /* Slightly darker on hover */
+  }
+  #learn-more-button {
+    background-color: #2ecc71; /* Set the initial background color */
+    opacity: 90%;
+    color: #fff; /* Set the initial text color */
+    padding: 0.3rem 0.6rem; /* Adjust padding as needed */
+    border-radius: 20px; /* Adjust border-radius for a rounded shape */
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for color change */
+  }
+  
+  #learn-more-button:hover {
+    background-color: #3498db; /* Set the background color on hover */
+    color: #fff; /* Set the text color on hover */
+  }
+
+
+  @media (max-width: 960px) {
+
+    .bodyH{
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width:100hh;
+    }
+    
+    .headline {
+      /* display: flex; */
+      display: flex;
+      flex-direction: column;
+      height:20rem;
+      width: 20rem;
+      background-color: #8B4513; /* Slightly lighter than the page */
+      border-radius: 20px;
+      margin-bottom: 2rem;
+      text-align: center;
+      overflow-y: visible;
+      position:relative;
+      z-index: 1;
+      
+    }
+    
+    #profile-picturem {
+      width: 50%;
+      height: 50%;
+      object-fit: cover;
+      border: 5px solid black;
+      border-radius: 50%;
+      /* left: 50%; */
+      /* transform: translate(-50%, -50%); */
+      position: relative;
+      /* margin-left: 9%;
+      transform: translateY(-130%); */
+      margin-left:25%;
+      margin-right:25%;
+      margin-top: 1rem;
+      z-index: 2;
+    }
+    
+    #parallelogram-textm {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-top: 12rem;
+      /* padding-left: 2.5rem; */
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      
+    }
+
+    
+    .rounded-square {
+      width: 80%;
+      background-color: #003366; /* Slightly lighter than the page */
+      border-radius: 20px;
+      padding: 0% 3% 3% 2%;
+      padding-bottom: 3rem;
+      padding-top: 1.5rem;
+      margin: 3%;
+      text-align: center;
+      transition: background-color 0.3s ease;
+      overflow-y: visible;
+    }
+
+    #learn-more-button {
+      background-color: #2ecc71; /* Set the initial background color */
+      opacity: 90%;
+      color: #fff; /* Set the initial text color */
+      padding: 0.3rem 0.6rem; /* Adjust padding as needed */
+      border-radius: 20px; /* Adjust border-radius for a rounded shape */
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s, color 0.3s; /* Add transition for color change */
+    }
+
+   
+  }

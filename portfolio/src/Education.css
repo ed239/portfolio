@@ -1,0 +1,74 @@
+.ed-body {
+  margin: 0;
+  padding: 0;
+  background-color: #e49a65; /* Dark blue background */
+  color:  black; /* Bright grey/green text color  color: #aaffaa; */
+  font-family: 'Arial', sans-serif;
+  height:100%;
+  
+}
+/* 001f3f   f2ceb5*/
+.container {
+    display: grid;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .section {
+    background-color: #001f3f;
+    color: white;
+    border-radius: 15px;
+    border: 0.2rem solid #ddd;
+    padding: 20px;
+    margin: 1rem 5rem;
+    width: 70;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 960px) {
+    
+    .container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-color: #e49a65;
+      height:100%;
+    }
+
+    .sectionm {
+      
+      /* align-items: center;
+      justify-content: center; */
+      align-items: flex-start;
+      background-color: #001f3f;
+      color: white;
+      border-radius: 15px;
+      border: 0.2rem solid #ddd;
+      padding: 20px;
+      width: 80%;
+      margin:1rem;
+    }
+    
+    .degree{
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+    .school{
+      
+      font-size: 1.2rem;
+    }
+  }

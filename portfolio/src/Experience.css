@@ -1,0 +1,140 @@
+.exs-body {
+  margin: 0;
+  padding: 0;
+  background-color: #001f3f; /* Dark blue background */
+  color:  #aaffaa; /* Bright grey/green text color  color: #aaffaa; */
+  font-family: 'Arial', sans-serif;
+}
+.experiences-container {
+    display: flex;
+    
+  }
+  
+  .left-section {
+    width: 35%;
+    /* background-color: #001f3f; */
+    color: #fff;
+    padding: 30px;
+    top: 0;
+    text-align: center;
+    font-size: xxx-large;
+    padding-top: 10%;
+    margin-top: 9%;
+    position:fixed;
+    
+    
+  }
+  
+  
+  .experience-section {
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .experience-section:hover {
+    background-color: #2980b9;
+  }
+  
+  .experience-section.active {
+    background-color: #2980b9;
+  }
+  
+  .right-section {
+    width: 70%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 30%;
+  }
+  
+  .column-section {
+    width: 60%;
+    padding: 10px;
+    margin-top: 10%;
+  }
+
+  .individual-section {
+    margin-bottom: 20%;
+  }
+  
+  .rounded-box {
+    background-color: #ecf0f1;
+    color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 960px) {
+    
+    .whole{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .left-sectionm {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .buttonm{
+      justify-content: center;
+      margin-bottom: 1rem; /* Adjust the margin as needed */
+      color:white;
+      background-color: #e49a65;
+      border: 2px solid;
+      padding:2%;
+      margin-top:1rem;
+      border-radius: 15%;
+    }
+    .experience-sectionm {
+      margin-bottom: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      
+    }
+    
+    .experience-section:hover {
+      background-color: #2980b9;
+    }
+    
+    .experience-section.active {
+      background-color: #2980b9;
+    }
+    .right-sectionm {
+      width: 100%;
+      overflow-y: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      
+    }
+    
+    .column-sectionm {
+      width: 90%;
+    }
+  
+    .individual-sectionm {
+      margin-bottom: 20%;
+    }
+    
+    .rounded-boxm {
+      background-color: #ecf0f1;
+      color: #333;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    h2{
+      color:white;
+      text-align: center;
+    }
+
+  }

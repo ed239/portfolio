@@ -1,0 +1,292 @@
+
+.twoBody{
+  background-color: #e49a65;
+}
+
+.projects-container-custom {
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    overflow-x: auto;
+    background-color: #e49a65;
+    position:fixed;
+  }
+  
+  
+  .project-list-custom {
+    /* flex: 1; */
+    display: flex;
+    overflow-x: scroll;
+    gap: 2rem;
+    padding: 0 1rem;
+    background-color: #e49a65; /* Adjust the background color of the top half */
+    margin: 2rem;
+    margin-right:3rem;
+    margin-left:3rem;
+    
+  }
+  
+  .project-box-custom {
+    width: 30%; /* Adjust the width of each project box */
+    min-width: 25%;
+    padding: 2rem;
+    padding-bottom: 8%;
+    border: 0.2rem solid #ddd;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    background-color: #001f3f;
+    transition: background-color 0.3s ease;
+    overflow-y: hidden;
+    z-index: 0;
+  
+    &:hover {
+      background-color: white;
+      h3{
+        color:black;
+      }
+      a{
+        color:blue;
+      }
+      color: black;
+    }
+    h3 {
+        font-size: 1.9rem;
+        margin-bottom: 8px;
+        color:#aaffaa;
+     }
+    p{
+      font-size: 1.3rem;
+    }
+    a{
+      color:white;
+
+    }
+  
+  
+    .project-box-custom h3 {
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+        /* color:#aaffaa; */
+    }
+
+    .project-box-custom p {
+        color: black;
+        margin-bottom: 8px;
+    }
+
+    .project-box-custom a {
+        display: block;
+        color: #3498db;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+
+        &:hover {
+        color: #217dbb;
+        }
+    }
+}
+
+  
+  
+  .project-details-custom {
+    flex: 1;
+    padding-bottom: 55vh;
+    width:100%;
+    background-color: #e49a65; /* Adjust the background color of the bottom half */
+    position: fixed;/* Make the bottom half scrollable */
+    margin-top: 45vh;
+    margin-bottom: 100%;
+    padding-left:3%;
+    padding-right: 3%;
+    overflow-y: scroll;
+  }
+
+  .project-box-placeholder-custom{
+    width: 85%;
+    background-color: #001f3f;
+    border: 0.2rem solid #ddd;
+    padding: 20px;
+    border-radius: 0.8rem;
+    margin-left:3%;
+    margin-right:3%;
+    text-align: center;
+    
+  }
+  
+  .detailed-box-custom {
+    width: 85%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 0.8rem;
+    margin-left:3%;
+    margin-right:3%;
+
+    
+  }
+  
+  .detailed-box-custom h2 {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+    color: black;
+  }
+  
+  .detailed-box-custom p {
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
+  /* Add the following styles for the arrows on the sides */
+  .arrow-button {
+    position: absolute;
+    user-select: none;
+    top: 45%;
+    color: black;
+    display: flex;
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 1;
+    transition: transform 0.3s ease; /* Add smooth transition for arrow pop-up effect */
+  }
+  
+  .left-arrow {
+    left: 2%;
+    /* margin-right: 80%; */
+  }
+  
+  .right-arrow {
+    right: 1%;
+  }
+
+
+
+
+
+
+
+
+  @media (max-width: 960px) {
+    .arrow-button{
+      display:none;
+    }
+    .mobileBody{
+      background-color: #e49a65;
+      height: 100vh;
+
+    }
+    .title{
+      width:100%;
+      padding-top:2rem;
+      padding-bottom:1rem;
+      align-items: center;
+      color:black;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+    }
+
+    .projectSection{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+
+    .prediction-box {
+      display: flex;
+      flex-direction: row;
+      width:90%;
+      /* justify-content: space-between; */
+      align-items: center;
+      padding: 1rem;
+      border-top: 0.2rem black solid ;
+      background-color: #e49a65;
+      
+    }
+    .prediction-box.last-box {
+      border-bottom: 0.2rem black solid;
+    }
+    
+    .left{
+      color:black;
+      width: 100%;
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+    
+    .right-section {
+      display: flex;
+      width:30%;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-left: 2rem;
+      margin-right:0.05rem;
+      
+    }
+    
+    .button {
+      background-color: aqua;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size:0.4rem;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .more-info {
+      background-color: whitesmoke;
+      opacity: 70%;
+      color: blue;
+      text-align: center;
+      
+    }
+    
+    .view-project {
+      background-color: whitesmoke;
+      opacity: 70%;
+      color: blue;
+      margin-top: 0.5rem;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .popup-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .popup-window {
+      background: white;
+      color: black;
+      width: 80%;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .popTitle{
+      color:black;
+    }
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      size: 1rem;
+      color:black;
+    }
+    .close{
+      color:black;
+      display: flex;
+      align-items: flex-start;
+      margin-top: 0rem;
+    }
+
+  }
