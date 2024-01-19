@@ -64,7 +64,7 @@
  
   .navbar {
     background-color: #3498db;
-    padding: 2.5rem;
+    padding: 1.5rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -75,6 +75,7 @@
     padding: 0.5rem;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    font-size: small;
   }
   
   .nav-button:not(:first-child) {

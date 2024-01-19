@@ -30,7 +30,7 @@ const projects2 = [
         description: 'Website about me to display education, experience, and projects.',
         details:'A website providing detailed information about my education, skills, previous work expereince in the professional, research, and leadership atmospheres, along with significant projects. ',
         key:'Key Technologies: React, JavaScript' ,
-        link: 'https://github.com/ed239',
+        link: 'https://ed239.github.io/portfolio/',
       },
 
   ];
@@ -102,9 +102,9 @@ const projects2 = [
               onMouseEnter={() =>setselectedProject2(index)}
               onMouseLeave={() => setselectedProject2(null)}
             >
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <h3 className="notHoverTitle">{project.title}</h3>
+              <p className="notHoverp">{project.description}</p>
+              <a className="notHovera"href={project.link} target="_blank" rel="noopener noreferrer">
                 View Project
               </a>
             </div>

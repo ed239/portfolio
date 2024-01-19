@@ -6,7 +6,7 @@
 .projects-container-custom {
     display: flex;
     flex-direction: column;
-    height: 45vh;
+    height: 50vh;
     overflow-x: auto;
     background-color: #e49a65;
     position:fixed;
@@ -17,9 +17,10 @@
     /* flex: 1; */
     display: flex;
     overflow-x: scroll;
+    height:100%;
     gap: 2rem;
     padding: 0 1rem;
-    background-color: #e49a65; /* Adjust the background color of the top half */
+    background-color:  #e49a65; /* Adjust the background color of the top half */
     margin: 2rem;
     margin-right:3rem;
     margin-left:3rem;
@@ -29,8 +30,8 @@
   .project-box-custom {
     width: 30%; /* Adjust the width of each project box */
     min-width: 25%;
+    height:70%;
     padding: 2rem;
-    padding-bottom: 8%;
     border: 0.2rem solid #ddd;
     border-radius: 0.8rem;
     cursor: pointer;
@@ -41,32 +42,35 @@
   
     &:hover {
       background-color: white;
-      h3{
+
+      .notHoverTitle {
         color:black;
       }
-      a{
+      .notHovera{
         color:blue;
       }
-      color: black;
+      .notHoverp{
+        color: black;
+      }
     }
-    h3 {
-        font-size: 1.9rem;
+
+
+    .notHoverTitle{
+        font-size: 150%;
         margin-bottom: 8px;
-        color:#aaffaa;
      }
-    p{
-      font-size: 1.3rem;
+    .notHoverp{
+      font-size: 100%;
     }
-    a{
+    .notHovera{
+      font-size: 80%;
       color:white;
 
     }
   
   
     .project-box-custom h3 {
-        font-size: 1.2rem;
         margin-bottom: 8px;
-        /* color:#aaffaa; */
     }
 
     .project-box-custom p {
@@ -93,7 +97,7 @@
     flex: 1;
     padding-bottom: 55vh;
     width:100%;
-    background-color: #e49a65; /* Adjust the background color of the bottom half */
+    background-color:  #e49a65; /* Adjust the background color of the bottom half */
     position: fixed;/* Make the bottom half scrollable */
     margin-top: 45vh;
     margin-bottom: 100%;
@@ -110,6 +114,7 @@
     border-radius: 0.8rem;
     margin-left:3%;
     margin-right:3%;
+    margin-top: 2%;
     text-align: center;
     
   }
@@ -119,6 +124,7 @@
     background-color: #f1f1f1;
     padding: 20px;
     border-radius: 0.8rem;
+    margin-top: 2%;
     margin-left:3%;
     margin-right:3%;
 
@@ -126,13 +132,13 @@
   }
   
   .detailed-box-custom h2 {
-    font-size: 2.3rem;
+    font-size: 150%;
     margin-bottom: 2rem;
     color: black;
   }
   
   .detailed-box-custom p {
-    font-size: 1.4rem;
+    font-size: 100%;
     color: #333;
   }
   

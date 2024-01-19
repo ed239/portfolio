@@ -1,5 +1,6 @@
 import {Routes, Route, useNavigate} from 'react-router-dom';
 import { useState,useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 import nyc from './nyc.jpeg'
 
@@ -34,10 +35,10 @@ export default function Home(){
         </div>
 
         <div id="bottom-half">
-          <Square title="About" description="I am a master's student seeking a job in software engineering relating to web & systems development, iOS development. " link="https://www.linkedin.com/in/edendubrovsky" name="LinkedIn Profile"/>
+          <Square title="About" description="I am a master's student seeking a job in software engineering relating to web, app, or systems development. " link="https://www.linkedin.com/in/edendubrovsky" name="LinkedIn Profile"/>
           <Square title="Education & Skills" description="I completed my Bachelors in Computer Science and am working towards my Masters degree at Boston Univerity." link="/education" name="Learn More" />
           <Square title="Experience" description="Professional Corporate experience along with research, leadership, and student work." link="/experience" name="Learn More" />
-          <Square title="Projects" description="Take a glance at the project I have completed ranging from web & app development to ML." link="/projects" name="Learn More" />
+          <Square title="Projects" description="Take a glance at the project I have completed ranging from web & app development to ML." link="/projects2" name="Learn More" />
         </div>
         </div>
         
@@ -50,7 +51,7 @@ export default function Home(){
           <Square title="About" description="I am a master's student seeking a job in software engineering realting to web & systems development, iOS development. " link="https://www.linkedin.com/in/edendubrovsky" name="LinkedIn Profile"/>
           <Square title="Education & Skills" description="I completed my Bachelors in Computer Science and am working towards my Masters degree at Boston Univerity." link="/education" name="Learn More" />
           <Square title="Experience" description="Professional Corporate experience along with research, leadership, and student work" link="/experience" name="Learn More" />
-          <Square title="Projects" description="Take a glance at the project I have completed ranging from web & app development to ML." link="/projects" name="Learn More" />
+          <Square title="Projects" description="Take a glance at the project I have completed ranging from web & app development to ML." link="/projects2" name="Learn More" />
 
           <br></br>
   
