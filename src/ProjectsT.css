@@ -20,7 +20,7 @@
     height:100%;
     gap: 2rem;
     padding: 0 1rem;
-    background-color:  #e49a65; /* Adjust the background color of the top half */
+    background-color:  #e49a65 ;/* Adjust the background color of the top half */
     margin: 2rem;
     margin-right:3rem;
     margin-left:3rem;
@@ -98,7 +98,7 @@
     padding-bottom: 55vh;
     width:100%;
     background-color:  #e49a65; /* Adjust the background color of the bottom half */
-    position: fixed;/* Make the bottom half scrollable */
+    position: fixed;
     margin-top: 45vh;
     margin-bottom: 100%;
     padding-left:3%;
@@ -156,7 +156,7 @@
   }
   
   .left-arrow {
-    left: 2%;
+    left: 1%;
     /* margin-right: 80%; */
   }
   

@@ -220,7 +220,7 @@ const Experience = () => {
           </div>
         </div>
         </div>
-    )};
+    )}
     </body>
   );
 };
