@@ -42,23 +42,23 @@ const Home = () => {
         <div id="bottom-half">
           {/* <Square title="About" description="I am a master's student seeking a job in software engineering relating to web, app, or systems development. " link="https://www.linkedin.com/in/edendubrovsky" name="LinkedIn Profile"/> */}
           <Link to='https://www.linkedin.com/in/edendubrovsky' className="rounded-square" target="_blank" rel="noopener noreferrer">
-            <h2>About</h2>
-            <p>I am a master's student seeking a software engineering job in the NYC/NJ area.</p>
+            <h2 className='rsTitle'>About</h2>
+            <p className='rsText'>I am a master's student seeking a software engineering job in the NYC/NJ area.</p>
             <a id="learn-more-button">LinkedIn</a>
           </Link>
           <Link to='/education' className="rounded-square" onClick={handleLinkScroll}>
-            <h2>Education & Skills</h2>
-            <p>I completed my Bachelors in Computer Science and am working towards my Masters degree at Boston Univerity.</p>
+            <h2 className='rsTitle'>Education & Skills</h2>
+            <p className='rsText'>I completed my BS in Computer Science and am working towards my MSc at Boston Univerity.</p>
             <a id="learn-more-button">Learn More</a>
           </Link>
           <Link to='/experience' className="rounded-square" onClick={handleLinkScroll}>
-            <h2>Experience</h2>
-            <p>Professional Corporate experience along with research, leadership, and student work.</p>
+            <h2 className='rsTitle'>Experience</h2>
+            <p className='rsText'>Professional Corporate experience along with research, leadership, and student work.</p>
             <a id="learn-more-button">Learn More</a>
           </Link>
           <Link to='/projects2' className="rounded-square" onClick={handleLinkScroll}>
-            <h2>Projects</h2>
-            <p>Take a glance at the projects I have completed ranging from web and app development to ML.</p>
+            <h2 className='rsTitle'>Projects</h2>
+            <p className='rsText'>Take a glance at the projects I have completed ranging from web and app development to ML.</p>
             <a id="learn-more-button" >Learn More</a>
           </Link>
         </div>

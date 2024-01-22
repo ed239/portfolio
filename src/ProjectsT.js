@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 import './ProjectsT.css'; // Import your CSS file or define styles here
 const projects2 = [
     {
-      title: 'Stock Price Prediction Algorithm Comparison',
-      description: 'Analysis on stock price prediction ',
+      title: 'Stock Price Prediction',
+      description: 'Algorithm comparison analysis used to predict stock prices while optimizing accuracy and efficiency.  ',
       details: 'The paper investigates the effectiveness of four machine learning models (LSTM, XGBRegressor, Linear regression, and SVR) in predicting individual stock prices, considering their crucial role in major market indices like S&P 500 and Dow Jones.' +
         'The study focuses on evaluating the models effectiveness based on RMSE and MAE metrics, discovering that the XGBRegressor model excels in accuracy, while linear regression stands out for efficiency, emphasizing the optimization of training data for precise stock price predictions.',
       key:'Language: Python' ,
@@ -12,7 +12,7 @@ const projects2 = [
     },
     {
         title: 'iOS Agile Meeting App',
-        description: 'Developed an app to keep track of scrum meeting infomration, time, and participant speaking time',
+        description: 'App used to keep track of scrum meeting infomration, time, and participant speaking time',
         details: 'Using Swift, the application allows users to schedule, track, and conduct scrum meetings efficiently. The app also provides the ability to transcribe the verbal content of the meeting and store it in history.',
         key:'Key Technologies: SwiftUI, XCode, Combine Framework' ,
         features:'Features: Interactive UI, Asynchronous, Accessible and Inclusive, Data Management and Storage ',
@@ -27,7 +27,7 @@ const projects2 = [
       },
       {
         title: 'Portfolio Website',
-        description: 'Website about me to display education, experience, and projects.',
+        description: 'Interactive react website about me to display education, experience, and relevant projects in detail.',
         details:'A website providing detailed information about my education, skills, previous work expereince in the professional, research, and leadership atmospheres, along with significant projects. ',
         key:'Key Technologies: React, JavaScript' ,
         link: 'https://ed239.github.io/portfolio/',
