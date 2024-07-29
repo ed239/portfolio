@@ -30,7 +30,7 @@ const projects2 = [
         description: 'Interactive react website about me to display education, experience, and relevant projects in detail.',
         details:'A website providing detailed information about my education, skills, previous work expereince in the professional, research, and leadership atmospheres, along with significant projects. ',
         key:'Key Technologies: React, JavaScript' ,
-        link: 'https://ed239.github.io/portfolio/',
+        link: 'edendubrovsky.onrender.com',
       },
 
   ];
