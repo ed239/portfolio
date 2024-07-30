@@ -159,11 +159,11 @@ const projects2 = [
               </div>
               {selectedProject2 !== null && popupVisible && (
                 <div className="popup-overlay">
-                  <div className="popup-window">
+                  <div className="popup-window2">
                     <h3 className="close" onClick={handleClosePopup}>X</h3>
                     <h2 className="popTitle">{projects2[selectedProject2].title}</h2>
                     <p>{projects2[selectedProject2].details}</p>
-                    <p>{projects2[selectedProject2].key}</p>
+                    <p><strong>{projects2[selectedProject2].key}</strong></p>
                     {projects2[selectedProject2].features && <p>{projects2[selectedProject2].features}</p>}
                     {projects2[selectedProject2].link && (
                       <a href={projects2[selectedProject2].link} target="_blank" rel="noopener noreferrer">View Project</a>
