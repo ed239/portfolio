@@ -43,7 +43,7 @@ const Home = () => {
           {/* <Square title="About" description="I am a master's student seeking a job in software engineering relating to web, app, or systems development. " link="https://www.linkedin.com/in/edendubrovsky" name="LinkedIn Profile"/> */}
           <Link to='https://www.linkedin.com/in/edendubrovsky' className="rounded-square" target="_blank" rel="noopener noreferrer">
             <h2 className='rsTitle'>About</h2>
-            <p className='rsText'>I am a master's student seeking a software engineering job in the NYC/NJ area.</p>
+            <p className='rsText'>I am a Software Development Master's student seeking a software engineering job in the NYC/NJ area.</p>
             <a id="learn-more-button">LinkedIn</a>
           </Link>
           <Link to='/education' className="rounded-square" onClick={handleLinkScroll}>
