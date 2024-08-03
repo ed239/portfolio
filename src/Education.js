@@ -39,7 +39,7 @@ const Education = () => {
           <p>Minors: Data Analytics, Business and Information Systems</p>
           <p>GPA: 3.85</p>
           <p>Graduation: May 2023</p>
-          <p> Computing Courses: Foundations of Computer Science I & II• Intensive Programming in Linux • Computer Networks • Data Science • Cybersecurity • Web Mining & Information Retrieval • Computer Systems • Performance Modeling in Computing • Advanced Data Structures and Algorithms • Analysis and Ststems Design</p>
+          <p> Computing Courses: Foundations of Computer Science I & II• Intensive Programming in Linux • Computer Networks • Data Science • Cybersecurity • Web Mining & Information Retrieval • Computer Systems • Performance Modeling in Computing • Advanced Data Structures and Algorithms • Analysis and Systems Design</p>
           <p> Mathematics Courses: Probability and Statistics, Linear Algebra, Discrete Mathematics</p>
         </div>
 
