@@ -7,7 +7,14 @@ const projects2 = [
       description: 'Language App on AppStore - used to learn common Hebrew verbs with flashcards and quiz. ',
       details: 'Published swift application on Apple AppStore with over 100 most common Hebrew verbs. Each verb displays all conjugations and gives the user the ability to learn using flashcards and a written quiz option.',
       key:'Key Technologies: Swift, User Default Data, Data Persistency, Data Encoding and Decoding' ,
-      link: 'https://learnhebrewverbs.onrender.com',
+      link: 'https://langsonthego.onrender.com',
+    },
+    {
+      title: 'Published Android App',
+      description: 'Language App on AppStore - used to learn common Hebrew verbs with flashcards and quiz. ',
+      details: 'Published kotlin application on Google Play Store with over 100 most common Hebrew verbs. Each verb displays all conjugations and gives the user the ability to learn using flashcards and a written quiz option.',
+      key:'Kotlin, Shared Preferences, Local Storage' ,
+      link: 'https://langsonthego.onrender.com',
     },
     {
       title: 'Java Chat App',
